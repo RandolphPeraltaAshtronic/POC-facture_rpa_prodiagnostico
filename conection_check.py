@@ -29,3 +29,6 @@ def check_internet_connection(timeout: int = 5, retry_interval: int = 5) -> None
         except (requests.ConnectionError, requests.Timeout):
             print("⚠️  Sin conexión a internet. Reintentando...")
             time.sleep(retry_interval)
+
+ 
+ #check_internet_connection()
